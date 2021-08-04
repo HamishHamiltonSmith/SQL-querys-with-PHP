@@ -3,8 +3,8 @@
 <br>
 <?php
 $servername = "localhost";
-$username = "hamakins";
-$password = "password123";
+$username = "username";
+$password = "password";
 $dbname = "Users";
 $id = $_GET["id"];
 $conn = new mysqli($servername, $username, $password, $dbname);
